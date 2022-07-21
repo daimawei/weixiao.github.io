@@ -1,0 +1,423 @@
+/*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+
+/*.box-wrap {*/
+/*  !*水平对齐*!*/
+/*  text-align: center;*/
+/*  !*背景色*!*/
+/*  background-color: #d4daf5;*/
+/*  !*溢流*!*/
+/*  overflow: hidden;*/
+/*}*/
+
+/*.box-wrap>div {*/
+/*  !*宽度*!*/
+/*  width: 31%;*/
+/*  !*底部间隙*!*/
+/*  padding-bottom: 31%;*/
+/*  !*边缘*!*/
+/*  margin: 1%;*/
+/*  !*边界半径*!*/
+/*  border-radius: 10%;*/
+/*  !*浮动*!*/
+/*  float: left;*/
+/*  !*背景色*!*/
+/*  background-color: orange;*/
+/*}*/
+
+
+/*
+设置垂直方向的padding撑开容器
+优点：简洁明了，且兼容性好
+缺点：填充内容后会出现问题
+*/
+
+/*div.box {*/
+/*  width: 30%;*/
+/*  padding-bottom: 30%;*/
+/*  margin: 1%;*/
+/*  background-color: orange;*/
+/*  float: left;*/
+/*  border-radius: 5%;*/
+/*}*/
+/*div {*/
+/*  width: 100%;*/
+/*  padding-bottom: 30%;*/
+/*}*/
+
+
+
+
+
+/*
+viewport 使用vw单位
+优点：简洁方便
+缺点：浏览器兼容不好
+*/
+
+/*div.box {*/
+/*  width: 30vw;*/
+/*  height: 30vw;*/
+/*  margin: 1vw;*/
+/*  background-color: orange;*/
+/*  float: left;*/
+/*  border-radius: 5%;*/
+/*}*/
+/*div {*/
+/*  width: 100vw;*/
+/*  height: 100vw;*/
+/*}*/
+
+
+
+
+/*div.box-wrap{*/
+/*  !*居中*!*/
+/*  text-align:center;*/
+/*  !*背景颜色*!*/
+/*  background-color:white;*/
+/*  !*溢流-隐藏的:可以控制内容溢出元素框时在对应的元素区间内添加滚动条*!*/
+/*  overflow:hidden;*/
+/*}*/
+/*div.box{*/
+
+/*  !*宽度*!*/
+/*  width: 31%;*/
+/*  !*高度*!*/
+/*  height: 31%;*/
+/*  !*底部间隙*!*/
+/*  padding-bottom:31%;*/
+/*  !*边缘*!*/
+/*  margin:1%;*/
+/*  !*边界半径:允许你设置元素的外边框圆角*!*/
+/*  border-radius:5%;*/
+/*  !*浮动-左边*!*/
+/*  float: left;*/
+/*  !*背景颜色*!*/
+/*  background-color:orange;*/
+/*}*/
+
+
+/*.table{*/
+/*  !*宽度*!*/
+/*  width: 70%;*/
+/*  !*  !*底部间隙*!*!*/
+/*  padding-bottom:70%;*/
+/*  !*显示*!*/
+/*  display: table;*/
+/*  !*边框间距*!*/
+/*  border-spacing: 5px;*/
+/*}*/
+/*li{*/
+/*  !*显示*!*/
+/*  display: table-row;*/
+/*}*/
+/*div{*/
+/*  !*水平对齐 ：居中*!*/
+/*  text-align: center;*/
+/*  !*宽度*!*/
+/*  width: 31%;*/
+/*  !*  !*底部间隙*!*!*/
+/*  padding-bottom:31%;*/
+/*  !*显示*!*/
+/*  display: table-cell;*/
+/*  !*边界半径*!*/
+/*  border-radius: 10px;*/
+/*  !*背景色*!*/
+/*  background:yellow;*/
+/*}*/
+
+
+
+
+ul {
+  /*显示 :弯曲   display 属性规定元素应该生成的框的类型。*/
+  display: flex;
+  /*包裹         flex-wrap 属性规定弹性项目是否应换行。*/
+  flex-wrap: wrap;
+}
+
+li {
+  /*宽度*/
+  width: 31%;
+  /*  !*  !*底部间隙*!*!*/
+  padding-bottom:31%;
+  /*右边距*/
+  margin-right: 1%;
+  /*底部边距*/
+  margin-bottom: 1%;
+  /*显示：内联块*/
+  display: inline-block;
+  /*背景色*/
+  background: orange;
+}
+
+
+
+
+
+
+
+
+
