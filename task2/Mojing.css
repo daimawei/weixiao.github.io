@@ -6,9 +6,9 @@ div {
     height: 850px;
     background-color: aqua;
     overflow: hidden;
-    background-image: url("../tupian/葡萄藤logo.png"),url("../tupian/整合透底.png"),
-    url("../tupian/椭圆 1.png"),url("../tupian/header.png"),url("../tupian/文字1.png"),
-    url("../tupian/290560933.png"),url("../tupian/BJPTTeng.png");
+    background-image: url("tupian/葡萄藤logo.png"),url("tupian/整合透底.png"),
+    url("tupian/椭圆 1.png"),url("tupian/header.png"),url("tupian/文字1.png"),
+    url("tupian/290560933.png"),url("tupian/BJPTTeng.png");
     background-repeat: no-repeat;
     background-position: 480px 650px, 200px 200px, 70px 650px, 1px 1px, 80px 300px, 60px 750px, 470px 750px;
 }
