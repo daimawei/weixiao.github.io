@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 720px;
+    height: 1280px;
+    background-color: #eff0f4;
+    margin: 0 auto;
+}
+
+.top {
+    height: 40px;
+    background-color: #5fc0cd;
+}
+
+.head {
+    padding: 14px 14px 0 14px;
+}
+
+.title {
+    height: 104px;
+    background-color: #5fc0cd;
+    margin-bottom: 18px;
+}
+
+.close {
+    font-size: 32px;
+    color: white;
+    float: left;
+    padding: 24px 30px 27px;
+}
+
+.sign-in {
+    font-size: 36px;
+    color: white;
+    float: left;
+    margin: 26px 200px;
+}
+
+.register {
+    font-size: 32px;
+    color: white;
+    float: right;
+    padding: 30px 30px 23px;
+}
+
+
+.user {
+    height: 285px;
+}
+
+.account {
+    height: 100px;
+    background-color: white;
+
+}
+
+.account p {
+    font-size: 32px;
+    color: #e7eaec;
+    float: left;
+    margin-top: 25px;
+
+}
+
+.account em {
+    font-style: normal;
+    color: #eaedee;
+    font-size: 32px;
+    float: left;
+    margin: 25px 40px;
+}
+
+.password {
+    height: 100px;
+    background-color: white;
+    margin-top: 14px;
+
+}
+
+.password p {
+    color: #e7eaec;
+    font-size: 32px;
+    float: left;
+    margin-top: 25px;
+}
+
+.password em {
+    font-style: normal;
+    color: #eaedee;
+    font-size: 32px;
+    float: left;
+    margin: 25px 40px;
+}
+
+.mobile-phone {
+    float: left;
+    margin: 30px;
+}
+
+.lock {
+    float: left;
+    margin: 30px;
+
+}
+
+.confirm {
+    height: 321px;
+
+}
+
+.confirm p {
+    font-size: 32px;
+    color: #83ccd7;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+
+.rectangle {
+    height: 96px;
+    background-color: #5fc0cd;
+}
+
+.rectangle p{
+    font-size: 36px;
+    color: white;
+    float: left;
+    margin-left: 315px;
+}
