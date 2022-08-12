@@ -5,6 +5,7 @@
 
 input::-webkit-input-placeholder{
     color:#eaedee;
+    text-align: center;
 }
 
 .box {
@@ -66,27 +67,35 @@ input::-webkit-input-placeholder{
 
 }
 
-.account p {
-    font-size: 32px;
-    color: #e7eaec;
-    float: left;
-    margin-top: 25px;
-
-}
 
 .account input {
     height: 100%;
     float: left;
     font-size: 32px;
     border:0;
+
 }
+
+/*.account input {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    !*float: left;*!*/
+/*    text-align: center;*/
+/*    font-size: 32px;*/
+/*    border:0;*/
+/*    background-image:url("tupian/iphone.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position:left;*/
+/*    margin: 0 3%;*/
+/*}*/
 
 .account em {
     font-style: normal;
     color: #eaedee;
     font-size: 32px;
     float: left;
-    margin: 25px 40px;
+    margin-top: 25px;
+    margin-left: 40px;
 }
 
 .password {
@@ -99,34 +108,46 @@ input::-webkit-input-placeholder{
 .password input {
     height: 100%;
     float: left;
+    text-align: center;
     font-size: 32px;
     border:0;
 }
 
+/*.password input {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    !*float: left;*!*/
+/*    text-align: center;*/
+/*    font-size: 32px;*/
+/*    border:0;*/
+/*    background-image:url("tupian/locked 2.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-position:left;*/
+/*    margin: 0 3%;*/
+/*}*/
 
-.password p {
-    color: #e7eaec;
-    font-size: 32px;
-    float: left;
-    margin-top: 25px;
-}
+
+
 
 .password em {
     font-style: normal;
     color: #e7eaec;
     font-size: 32px;
     float: left;
-    margin: 25px 40px;
+    margin-top: 25px;
+    margin-left: 40px;
 }
 
 .mobile-phone {
     float: left;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
 }
 
 .lock {
     float: left;
-    margin: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
 
 }
 
