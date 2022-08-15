@@ -69,10 +69,12 @@ input::-webkit-input-placeholder{
 
 
 .account input {
+    width: 50%;
     height: 100%;
     float: left;
     font-size: 32px;
     border:0;
+    margin-left: 40px;
 
 }
 
@@ -89,15 +91,6 @@ input::-webkit-input-placeholder{
 /*    margin: 0 3%;*/
 /*}*/
 
-.account em {
-    font-style: normal;
-    color: #eaedee;
-    font-size: 32px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
 .password {
     height: 100px;
     background-color: white;
@@ -106,12 +99,14 @@ input::-webkit-input-placeholder{
 }
 
 .password input {
+    width: 50%;
     height: 100%;
     float: left;
-    text-align: center;
     font-size: 32px;
     border:0;
+    margin-left: 40px;
 }
+
 
 /*.password input {*/
 /*    width: 100%;*/
@@ -128,26 +123,20 @@ input::-webkit-input-placeholder{
 
 
 
-
-.password em {
-    font-style: normal;
-    color: #e7eaec;
-    font-size: 32px;
-    float: left;
-    margin-top: 25px;
-    margin-left: 40px;
-}
-
 .mobile-phone {
     float: left;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 25px;
+    padding: 5px 30px 5px 40px;
+    border-right-style: solid;
+    color: #eaedee;
 }
 
 .lock {
     float: left;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 25px;
+    padding: 5px 30px 5px 40px;
+    border-right-style: solid;
+    color: #eaedee;
 
 }
 
