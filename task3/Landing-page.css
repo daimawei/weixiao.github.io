@@ -64,18 +64,18 @@ input::-webkit-input-placeholder{
 .account {
     height: 100px;
     background-color: white;
+    display: flex;
 
 }
 
 
 .account input {
-    width: 50%;
+    width: 80%;
     height: 100%;
     float: left;
     font-size: 32px;
     border:0;
-    margin-left: 40px;
-
+    flex-grow: 1;
 }
 
 /*.account input {*/
@@ -95,16 +95,17 @@ input::-webkit-input-placeholder{
     height: 100px;
     background-color: white;
     margin-top: 14px;
+    display: flex;
 
 }
 
 .password input {
-    width: 50%;
+    width: 80%;
     height: 100%;
     float: left;
     font-size: 32px;
     border:0;
-    margin-left: 40px;
+    flex-grow: 1;
 }
 
 
@@ -125,7 +126,7 @@ input::-webkit-input-placeholder{
 
 .mobile-phone {
     float: left;
-    margin-top: 25px;
+    margin: 20px 10px;
     padding: 5px 30px 5px 40px;
     border-right-style: solid;
     color: #eaedee;
@@ -133,7 +134,7 @@ input::-webkit-input-placeholder{
 
 .lock {
     float: left;
-    margin-top: 25px;
+    margin: 20px 10px;
     padding: 5px 30px 5px 40px;
     border-right-style: solid;
     color: #eaedee;
