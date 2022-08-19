@@ -1,0 +1,296 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: #5fc0cd;
+    height: 100px;
+
+}
+
+.navigation img {
+    float: left;
+    margin: 25px 30px;
+}
+
+
+.navigation p {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 19px;
+}
+
+
+.background {
+    height: 329px;
+    position: relative;
+}
+
+.picture {
+    width: 100%;
+    height: 329px;
+}
+
+.head-portrait {
+    position:absolute;
+    z-index: 10;
+    top: 76px;
+    left: 28px;
+
+}
+
+.location {
+    position:absolute;
+    z-index: 10;
+    top: 176px;
+    left: 240px;
+}
+
+.name {
+    position: absolute;
+    color: white;
+    top: 115px;
+    left: 240px;
+    font-size: 32px;
+}
+
+.age {
+    position: absolute;
+    color: white;
+    top: 120px;
+    left: 370px;
+    font-size: 28px;
+}
+
+.position {
+    position: absolute;
+    color: white;
+    top: 170px;
+    left: 273px;
+    font-size: 24px;
+}
+
+.skill {
+    height: 100px;
+}
+
+.skill em {
+    display: inline-block;
+    font-style: normal;
+    font-size: 32px;
+    color: #5fc0cd;
+    margin: 32px 27px 0 30px;
+}
+
+.skill p{
+    display: inline-block;
+    font-size: 32px;
+    color: #333333;
+    font-weight:bold;
+
+}
+
+.introduce {
+    height: 74px;
+}
+
+.introduce p {
+    display: inline-block;
+    font-size: 32px;
+}
+
+.introduce em {
+    font-size: 32px;
+    display: inline-block;
+    font-style: normal;
+    color: #e1e5e7;
+    margin: 0 17px 0 19px;
+
+}
+
+.dormitory {
+    display: inline-block;
+    margin: 36px 9px 0 60px;
+}
+
+.restaurant {
+    display: inline-block;
+    margin: 0 9px 0 0;
+}
+
+.working-age {
+    height: 125px;
+}
+
+.demand {
+    display: inline-block;
+    font-size: 32px;
+    color: #a6a6a6;
+    margin-left: 60px;
+
+}
+
+.content {
+    display: inline-block;
+    font-size: 32px;
+
+}
+
+.working-age em {
+    display: inline-block;
+    font-size: 32px;
+    font-style: normal;
+    color: #e1e5e7;
+    margin: 33px 23px 0 23px;
+
+}
+
+.working-hours {
+    height: 104px;
+}
+
+.working-hours em {
+    display: inline-block;
+    font-size: 32px;
+    font-style: normal;
+    color: #e1e5e7;
+    margin: 33px 23px 0 23px;
+}
+
+.work {
+    display: inline-block;
+    font-size: 32px;
+    color: #a6a6a6;
+    margin-left: 60px;
+}
+
+.time {
+    display: inline-block;
+    font-size: 32px;
+}
+
+.price {
+    height: 103px;
+}
+
+.price em {
+    display: inline-block;
+    font-size: 32px;
+    font-style: normal;
+    color: #e1e5e7;
+    margin: 33px 23px 0 23px;
+
+}
+
+.service {
+    display: inline-block;
+    font-size: 32px;
+    color: #a6a6a6;
+    margin-left: 60px;
+
+}
+
+.hourly-wage {
+    display: inline-block;
+    font-size: 32px;
+    color: red;
+
+}
+
+.self-introduction {
+    height: 150px;
+
+}
+
+.self-introduction em{
+    display: inline-block;
+    font-size: 32px;
+    font-style: normal;
+    color: #e1e5e7;
+    margin: 33px 23px 0 23px;
+
+}
+
+.self {
+    display: inline-block;
+    font-size: 32px;
+    color: #a6a6a6;
+    margin-left: 60px;
+}
+
+.information {
+    display: inline-block;
+    font-size: 28px;
+    width: 50%;
+    margin-top: 30px;
+
+}
+
+.contact-information {
+    height: 100%;
+}
+
+.respond {
+    display: inline-block;
+    float: left;
+    border-style: solid;
+    border-color: #5fc0cd;
+    width: 45%;
+    height: 5%;
+    border-radius: 10px;
+    margin: 10% 2%;
+
+}
+
+.respond p {
+    text-align: center;
+    color: #5fc0cd;
+    font-size: 32px;
+    margin-top: 17px;
+}
+
+.telephone {
+    display: inline-block;
+    background-color: #5fc0cd;
+    float: right;
+    width: 45%;
+    height: 5%;
+    border-radius: 10px;
+    margin: 10% 2%;
+
+}
+
+.telephone p {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-top: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
