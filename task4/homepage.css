@@ -31,7 +31,7 @@
 
 
 .background {
-    height: 329px;
+    height: auto;
     position: relative;
 }
 
@@ -67,7 +67,7 @@
     position: absolute;
     color: white;
     top: 120px;
-    left: 370px;
+    left: 350px;
     font-size: 28px;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .skill {
-    height: 100px;
+    height: auto;
 }
 
 .skill em {
@@ -88,7 +88,7 @@
     font-style: normal;
     font-size: 32px;
     color: #5fc0cd;
-    margin: 32px 27px 0 30px;
+    padding: 4% 4%;
 }
 
 .skill p{
@@ -100,7 +100,15 @@
 }
 
 .introduce {
-    height: 74px;
+    height: auto;
+}
+
+.briefly {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+    border-color: #a6a6a6;
+
 }
 
 .introduce p {
@@ -113,130 +121,87 @@
     display: inline-block;
     font-style: normal;
     color: #e1e5e7;
-    margin: 0 17px 0 19px;
+    margin: 1%;
 
 }
 
 .dormitory {
     display: inline-block;
-    margin: 36px 9px 0 60px;
+    margin: 3% 2% 0 5%;
 }
 
 .restaurant {
     display: inline-block;
-    margin: 0 9px 0 0;
+    margin: 0 3% 0 0;
 }
 
-.working-age {
-    height: 125px;
-}
-
-.demand {
-    display: inline-block;
-    font-size: 32px;
-    color: #a6a6a6;
-    margin-left: 60px;
-
-}
 
 .content {
     display: inline-block;
     font-size: 32px;
+    text-align: center;
+    padding: 5%;
 
-}
-
-.working-age em {
-    display: inline-block;
-    font-size: 32px;
-    font-style: normal;
-    color: #e1e5e7;
-    margin: 33px 23px 0 23px;
-
-}
-
-.working-hours {
-    height: 104px;
-}
-
-.working-hours em {
-    display: inline-block;
-    font-size: 32px;
-    font-style: normal;
-    color: #e1e5e7;
-    margin: 33px 23px 0 23px;
-}
-
-.work {
-    display: inline-block;
-    font-size: 32px;
-    color: #a6a6a6;
-    margin-left: 60px;
 }
 
 .time {
     display: inline-block;
     font-size: 32px;
-}
-
-.price {
-    height: 103px;
-}
-
-.price em {
-    display: inline-block;
-    font-size: 32px;
-    font-style: normal;
-    color: #e1e5e7;
-    margin: 33px 23px 0 23px;
-
-}
-
-.service {
-    display: inline-block;
-    font-size: 32px;
-    color: #a6a6a6;
-    margin-left: 60px;
-
+    text-align: center;
+    padding: 5%;
 }
 
 .hourly-wage {
     display: inline-block;
     font-size: 32px;
     color: red;
+    text-align: center;
+    padding: 5%;
 
 }
 
 .self-introduction {
-    height: 150px;
-
-}
-
-.self-introduction em{
-    display: inline-block;
-    font-size: 32px;
-    font-style: normal;
-    color: #e1e5e7;
-    margin: 33px 23px 0 23px;
-
+    height: auto;
+    border-top-style:solid;
+    border-color: #a6a6a6;
+    margin-left: 3%;
 }
 
 .self {
     display: inline-block;
     font-size: 32px;
     color: #a6a6a6;
-    margin-left: 60px;
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.frame {
+    width: auto;
+    height: 25px;
+    border-color: #e1e5e7;
+    border-right-style:solid;
+    display: inline-block;
+    padding-left: 5%;
+
+}
+
+.fragment {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
 }
 
 .information {
     display: inline-block;
     font-size: 28px;
-    width: 50%;
-    margin-top: 30px;
+    text-align: center;
+    padding: 5%;
 
 }
 
 .contact-information {
-    height: 100%;
+    height: auto;
 }
 
 .respond {
@@ -245,9 +210,11 @@
     border-style: solid;
     border-color: #5fc0cd;
     width: 45%;
-    height: 5%;
+    height: 80px;
     border-radius: 10px;
-    margin: 10% 2%;
+    /*margin: 10% 2%;*/
+    margin-top: 10%;
+    margin-right: 2%;
 
 }
 
@@ -263,9 +230,11 @@
     background-color: #5fc0cd;
     float: right;
     width: 45%;
-    height: 5%;
+    height: 80px;
     border-radius: 10px;
-    margin: 10% 2%;
+    /*margin: 10% 2%;*/
+    margin-top: 10%;
+    margin-right: 2%;
 
 }
 
@@ -274,6 +243,7 @@
     color: white;
     font-size: 32px;
     margin-top: 17px;
+
 }
 
 
