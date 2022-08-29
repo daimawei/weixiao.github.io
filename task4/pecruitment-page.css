@@ -143,11 +143,13 @@ p {
 .date {
     display: inline-block;
     margin: 30px 17px 0 30px;
+    vertical-align: sub;
 }
 
 .address {
     display: inline-block;
     margin: 0 17px 0 30px;
+    vertical-align: sub;
 }
 
 .return {
