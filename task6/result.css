@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.top {
+    background-color: #29bde0;
+    height: 120px;
+    position: relative;
+
+}
+
+.homepage {
+    float: left;
+    margin: 50px 0 0 18px;
+
+}
+
+.circular {
+    float: right;
+    margin: 30px 10px 0 0;
+    width: 66px;
+
+}
+
+
+.title {
+    font-size: 34px;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.content {
+    background-color: #29bde0;
+    height: 750px;
+    text-align: center;
+    position: relative;
+
+}
+
+.layer1 {
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    right: 0;
+    bottom: 0;
+
+}
+
+.layer2 {
+    margin-top: 36px;
+    position: relative;
+
+}
+
+.result {
+    font-size: 43px;
+    color: #ffffff;
+    position: absolute;
+    top: 22%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.notice {
+    padding: 0 24%;
+
+}
+
+.notice p {
+    font-size: 33px;
+    color: #ffc865;
+}
+
+.explain {
+    padding: 0 24%;
+
+}
+
+.explain p {
+    font-size: 26px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.statement {
+    background-color: #ffffff;
+    height: 400px;
+
+}
+
+.days {
+    border-bottom-style:solid;
+    border-color: #dddddd;
+    height: 165px;
+
+}
+
+.days span {
+    font-size: 30px;
+    padding: 10px 0 15px 75px;
+}
+
+.days p {
+    font-size: 26px;
+    color: #a6a6a6;
+    padding-left: 75px;
+    margin: 0;
+}
+
+.days h1 {
+    float: right;
+    font-size: 26px;
+    color: #c7c7c7;
+    padding: 15px 75px 0 0;
+}
+
+.transparent {
+    height: auto;
+    width: auto;
+}
+
+.bottom {
+    height: 150px;
+    background-color: #29bde0;
+    opacity: 0.5;
+    margin-top: -160px;
+    position: relative;
+
+}
+
+.button1 {
+    float: left;
+    font-size: 40px;
+    width: 270px;
+    height: 85px;
+    background-color: #f66f6f;
+    color: #fef6f6;
+    border-radius: 10px;
+    position: absolute;
+    top: 1155px;
+    left: 20px;
+    border: none;
+}
+
+.button2 {
+    float: right;
+    font-size: 40px;
+    width: 270px;
+    height: 85px;
+    background-color: #fbb435;
+    color: #fef6f6;
+    border-radius: 10px;
+    position: absolute;
+    top: 1155px;
+    right: 20px;
+    border:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

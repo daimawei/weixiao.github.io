@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+}
+
+.head {
+    height: 128px;
+    background-color: #29bde0;
+    flex-wrap: wrap;
+}
+
+.rectangle1 {
+    margin-left: 20px;
+    padding-top: 63px;
+    height: 76px;
+
+}
+
+.rectangle2 {
+    margin-left: 20px;
+    height: 14px;
+
+
+}
+
+.rectangle3 {
+    margin-left: 20px;
+
+}
+
+p {
+    color: #bcbcbc;
+    font-size: 25px;
+    text-align: center;
+}
+
+.trunk {
+    height: 1010px;
+}
+
+.review {
+    background-color: #ffffff;
+    height: 119px;
+    margin: 27px 36px ;
+}
+
+.review p {
+    font-size: 35px;
+    color: #a0a0a0;;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.content {
+    background-color: #ffffff;
+    margin: 0 35px;
+}
+
+.title {
+    height: 90px;
+    border-bottom:solid;
+    border-color: #fdd793;
+    
+}
+
+.title p {
+    color: #fbb435;
+    font-size: 38px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.button {
+    height: 135px;
+    background-color: #69d1e9;
+    margin: 31px 54px;
+    position: relative;
+}
+
+.typeface {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.polygon {
+    position: absolute;
+    left: 102%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
