@@ -156,22 +156,17 @@ p {
 .bottom {
     background-color: #29bde0;
     padding: 5% 20% 0 20%;
-
+    text-align: center;
+    font-size: 40px;
 
 }
 
-.choice {
+button {
     width: 100%;
     background-color: #fbb435;
-}
-
-.choice1 {
-    font-size: 40px;
     color: #fffaf2;
-
+    border: none;
 }
-
-
 
 
 
