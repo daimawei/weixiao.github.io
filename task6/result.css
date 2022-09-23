@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+p {
+    font-size: 26px;
+    color: #ffffff;
+    margin: 0;
+}
+
 .box {
     height: 100vh;
     margin: 0 auto;
@@ -40,18 +46,18 @@
 
 .content {
     background-color: #29bde0;
-    height: 750px;
+    height: 820px;
     text-align: center;
-    position: relative;
 
 }
 
+.victory {
+    background-color: #29bde0;
+}
+
 .layer1 {
-    position: absolute;
-    top: 10%;
-    left: 45%;
-    right: 0;
-    bottom: 0;
+    position: relative;
+    top: 19%;
 
 }
 
@@ -64,8 +70,8 @@
 .result {
     font-size: 43px;
     color: #ffffff;
-    position: absolute;
-    top: 22%;
+    position: relative;
+    top: -9%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -82,16 +88,16 @@
     color: #ffc865;
 }
 
-.explain {
-    padding: 0 24%;
+/*.explain {*/
+/*    padding: 0 24%;*/
 
-}
+/*}*/
 
-.explain p {
-    font-size: 26px;
-    color: #ffffff;
-    margin: 0;
-}
+/*.explain p {*/
+/*    font-size: 26px;*/
+/*    color: #ffffff;*/
+/*    margin: 0;*/
+/*}*/
 
 .statement {
     background-color: #ffffff;
@@ -148,7 +154,7 @@
     color: #fef6f6;
     border-radius: 10px;
     position: absolute;
-    top: 1155px;
+    top: 1205px;
     left: 20px;
     border: none;
 }
@@ -162,7 +168,7 @@
     color: #fef6f6;
     border-radius: 10px;
     position: absolute;
-    top: 1155px;
+    top: 1205px;
     right: 20px;
     border:none;
 }
