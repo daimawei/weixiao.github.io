@@ -4,11 +4,12 @@
     padding: 0;
 }
 
-p {
-    font-size: 26px;
-    color: #ffffff;
-    margin: 0;
-}
+/*p {*/
+/*    font-size: 26px;*/
+/*    color: #ffffff;*/
+/*    margin: 0 50px;*/
+/*    display: inline-block;*/
+/*}*/
 
 .box {
     height: 100vh;
@@ -79,7 +80,7 @@ p {
 }
 
 .notice {
-    padding: 0 24%;
+    padding: 0 25%;
 
 }
 
@@ -88,16 +89,17 @@ p {
     color: #ffc865;
 }
 
-/*.explain {*/
-/*    padding: 0 24%;*/
+.explain {
+    height: auto;
+    padding: 0 20%;
 
-/*}*/
+}
 
-/*.explain p {*/
-/*    font-size: 26px;*/
-/*    color: #ffffff;*/
-/*    margin: 0;*/
-/*}*/
+.explain p {
+    font-size: 26px;
+    color: #ffffff;
+    margin: 0;
+}
 
 .statement {
     background-color: #ffffff;
