@@ -47,7 +47,7 @@
 
 .content {
     background-color: #29bde0;
-    height: 820px;
+    height: auto;
     text-align: center;
 
 }
@@ -91,7 +91,7 @@
 
 .explain {
     height: auto;
-    padding: 0 20%;
+    padding: 0 20% 10% 20%;
 
 }
 
