@@ -1,0 +1,312 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navigation {
+    background-color: #29b078;
+    height: 100px;
+}
+
+.a {
+    float: right;
+    margin-top: 35px;
+    margin-right: 155px;
+}
+
+.a ul li {
+    display: block;
+    color: #fff;
+    padding-bottom: 0;
+    width: 80px;
+    font-size: 15px;
+    float: right;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.about {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.head {
+    height: 39px;
+    width: auto;
+}
+
+.head p {
+    font-size: 14px;
+    color: #29b078;
+    margin: 10px 0 0 200px;
+}
+
+.chart {
+    width: auto;
+    margin-right: 15%;
+}
+
+.icon {
+    float: right;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+.navigation {
+    background-color: #29b078;
+    height: 100px;
+}
+
+.browse {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+}
+
+.image {
+    max-height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+
+.efficient {
+    margin-top: 40%;
+    margin-left: 25%;
+
+}
+
+.standard {
+    margin-top: 40%;
+    margin-left: 25%;
+
+}
+
+.people {
+    margin-top: 40%;
+    margin-left: 25%;
+
+}
+.student {
+    width: auto;
+    margin: 0 0 5px 0;
+}
+
+/*.student2 {*/
+/*    width: auto;*/
+/*}*/
+
+.font {
+    color: #333333;
+    font-size: 18px;
+    font-weight:bold;
+    margin: 10% 0 10% 25%;
+}
+
+.study {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fafafa;
+
+}
+
+.excellent{
+    width: 100%;
+    background-color: #fafafa;
+    text-align: center;
+
+}
+
+.excellent img {
+    margin: 100px 0;
+}
+
+.explain {
+    font-size: 16px;
+    color: #333333;
+    text-align: center;
+    padding: 1% 0 ;
+    font-weight:bolder;
+}
+
+.font1 {
+    font-size: 16px;
+    color: #a1a1a1;
+    margin-top: 15px;
+}
+
+.font2 {
+    font-size: 16px;
+    color: #a1a1a1;
+    margin-top: 30px;
+}
+
+.m {
+    margin-top: 15px;
+}
+
+.s {
+    font-size: 18px;
+    color: #29b078;
+    font-weight: bolder;
+}
+
+/*.b {*/
+/*    font-size: 18px;*/
+/*    color: #29b078;*/
+/*    font-weight: bolder;*/
+/*}*/
+
+.d {
+    width: auto;
+    margin-top: 100px;
+}
+
+.circular {
+    width: 75px;
+    height: 75px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border-color: black;
+    margin-top: 20%;
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+}
+
+.circular img {
+    float: left;
+    padding-left: 20px;
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    display: inline-block;
+}
+
+.circular span {
+    color: #29b078;
+    font-size: 20px;
+    line-height: 70px;
+    margin-left: 30px;
+}
+
+
+.row p {
+    color: #cacaca;
+    margin-bottom: 0;
+}
+
+.row img {
+    text-align: center;
+}
+
+.exhibition {
+    width: 100%;
+    background-color: #fff;
+}
+
+.exhibition img {
+    float: left;
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.exhibition span {
+    line-height: 320px;
+    margin-left: -180px;
+}
+
+.cooperation {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.cooperation img{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.link {
+    width: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+.link ul {
+    width: auto;
+}
+
+.link li {
+    margin: 5px 30px;
+    color: #999999;
+    font-size: 15px;
+    float: left;
+}
+
+.low {
+    width: 100%;
+    background-color: #26a26f;
+    display: block;
+}
+
+.public1 {
+    display: block;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.public2 {
+    display: block;
+    margin-top: 8%;
+}
+
+.public4 {
+    display: flex;
+    margin-top: 2%;
+}
+
+
+.public3 {
+    float: right;
+    display: block;
+    margin-top: 5%;
+}
+
+.public3 p {
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.col-lg-4 p {
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+.public img {
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
