@@ -18,6 +18,7 @@
 .head {
     height: 39px;
     width: auto;
+    background-color: white;
 }
 
 .head p {
