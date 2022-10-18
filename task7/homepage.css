@@ -110,10 +110,6 @@ li a {
     margin: 0 0 5px 0;
 }
 
-/*.student2 {*/
-/*    width: auto;*/
-/*}*/
-
 .font {
     color: #333333;
     font-size: 18px;
@@ -144,7 +140,7 @@ li a {
     font-size: 16px;
     color: #333333;
     text-align: center;
-    padding: 1% 0 ;
+    padding: 5% 0 ;
     font-weight:bolder;
 }
 
@@ -160,21 +156,11 @@ li a {
     margin-top: 30px;
 }
 
-.m {
-    margin-top: 15px;
-}
-
 .s {
     font-size: 18px;
     color: #29b078;
     font-weight: bolder;
 }
-
-/*.b {*/
-/*    font-size: 18px;*/
-/*    color: #29b078;*/
-/*    font-weight: bolder;*/
-/*}*/
 
 .d {
     width: auto;
@@ -182,15 +168,13 @@ li a {
 }
 
 .circular {
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
     background-color: #ffffff;
     border-radius: 50%;
-    border-color: black;
-    margin-top: 20%;
-    display: inline-block;
+    display: block;
     position: relative;
-    margin-left: 30%;
+    margin: 35% 35%;
 }
 
 .circular img {
@@ -198,22 +182,30 @@ li a {
     padding-left: 20px;
     position: absolute;
     top: 20px;
-    right: 90px;
+    right: 85px;
     display: inline-block;
 }
 
 .circular span {
     color: #29b078;
-    font-size: 20px;
-    line-height: 70px;
-    margin-left: 30px;
+    font-size: 15px;
+    line-height: 65px;
+    margin-left: 27px;
 }
 
-
-.row p {
+.col-lg-6 p {
     color: #cacaca;
-    margin-bottom: 0;
+    font-size: 10px;
+    margin: 60px 0 0 15px;
 }
+
+
+/*.row p {*/
+/*    color: #cacaca;*/
+/*    margin: 50px 0 0 15px;*/
+/*    font-size: 20px;*/
+
+/*}*/
 
 .row img {
     text-align: center;
@@ -234,6 +226,13 @@ li a {
 .exhibition span {
     line-height: 320px;
     margin-left: -180px;
+}
+
+.exhibition p {
+    color: #cacaca;
+    font-size: 20px;
+    margin-top: -80px;
+    padding: 0 20px 50px 20px;
 }
 
 .cooperation {
