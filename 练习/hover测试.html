@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>过渡测试</title>
+  <style>
+    /*div {*/
+    /*  position: relative;*/
+    /*  width: 200px;*/
+    /*  height: 100px;*/
+    /*  background-color: cyan;*/
+    /*  !*transform: 变化位置 花费时间 运动曲线 何时开始;*!*/
+    /*  !*transition: width 1s ease 1s, height 1s ease 1s;*!*/
+    /*  !*如果想描写多个属性，利用逗号进行分割。*!*/
+    /*  !*transition: width 1s , height 1s ;*!*/
+    /*  !*如果需要多个属性一起变化，加入属性all*!*/
+    /*  transition: all 1s;*/
+    /*}*/
+    /*div:hover {*/
+    /*  width: 500px;*/
+    /*  height: 200px;*/
+    /*  border: 2px red solid;*/
+    /*}*/
+
+
+    .bar {
+      width: 150px;
+      height: 15px;
+      border: 1px solid black;
+      border-radius: 7px;
+      padding: 1px;
+    }
+
+    .bar-in {
+      width: 30%;
+      height: 100%;
+      background-color: red;
+      border-radius: 7px;
+      transition: all 1s ease 0.5s;
+    }
+
+    .bar:hover .bar-in:hover {
+      width: 100%;
+    }
+
+  </style>
+</head>
+<body>
+<div class="bar">
+  <div class="bar-in"></div>
+</div>
+
+</body>
+</html>
