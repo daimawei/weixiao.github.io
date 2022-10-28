@@ -310,10 +310,11 @@ input[type=text] {
 
 .m {
     display: grid;
+    margin: 35px 0;
 }
 
-.col-lg-4 img {
-    /*float: right;*/
+.m img {
+    float: left;
 }
 
 
