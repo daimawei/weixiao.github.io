@@ -2,29 +2,111 @@
 @color:#fff;
 @bgcolor:#5fc0cd;
 @huise:#999;
-@font-size:32px;
+@fs:25px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: @huise;
+  font-size: @fs;
+  text-align: center;
+}
+
+.box {
+  height: 100vh;
+  background-color: @color;
+  margin: 0 auto;
+}
+
+.head {
+  height: 128px;
+  background-color: @bgcolor;
+  flex-wrap: wrap;
+}
+
+.rectangle1 {
+  margin-left: 20px;
+  padding-top: 63px;
+  height: 76px;
+
+}
+
+.rectangle2 {
+  margin-left: 20px;
+  height: 14px;
 
 
+}
 
+.rectangle3 {
+  margin-left: 20px;
 
+}
 
+.trunk {
+  height: 1110px;
+  background-color: @color;
+}
 
+.review {
+  background-color: @color;
+  height: 119px;
+  margin: 27px 36px ;
+}
 
+.review p {
+  font-size: 35px;
+  color: @huise;
+  text-align: center;
+  padding-top: 30px;
+}
 
+.back {
+  float: right;
+  margin-top: -58px;
+  margin-right: 15px;
+}
 
+.content {
+  background-color: @color;
+  margin: 0 35px;
+  text-align: center;
+  position: relative;
+}
 
+.title {
+  height: 90px;
+  border-bottom:solid;
+  border-color: #fdd793;
 
+}
 
+.title p {
+  color: #fbb435;
+  font-size: 38px;
+  text-align: center;
+  padding-top: 15px;
+}
 
+.button {
+  font-size: 32px;
+  width: 465px;
+  height: 135px;
+  background-color: @bgcolor;
+  margin: 30px;
+  color: @color;
+  border: none;
+}
 
+.polygon {
+  position: absolute;
+  top: 47%;
+  left: 94%;
+}
 
-
-
-
-
-
-
-
-
-
-
+.circular {
+  margin-bottom: 10px;
+}
