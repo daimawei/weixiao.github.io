@@ -12,15 +12,8 @@
 li {
     padding: 10px;
     list-style: none;
-    display: inline-block;
+    /*display: inline-block;*/
 }
-
-
-/*@media screen and (max-width: 767px){*/
-/*    .box {*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
 
 
 .icon {
@@ -72,7 +65,7 @@ datalist {
 summary  {
     position: relative;
     cursor: pointer;
-    list-style: none;
+    /*list-style: none;*/
     width: 4rem;
     height: 2.8rem;
     /*background: red;*/
@@ -89,33 +82,33 @@ span {
     transition: 0.3s;
 }
 
-span:first-child {
-    top: 0;
-}
+/*span:first-child {*/
+/*    top: 0;*/
+/*}*/
 
-span:nth-child(2) {
-    top: calc(50% - 0.3rem);
-}
+/*span:nth-child(2) {*/
+/*    top: calc(50% - 0.3rem);*/
+/*}*/
 
-span:last-child {
-    bottom: 0;
-}
+/*span:last-child {*/
+/*    bottom: 0;*/
+/*}*/
 
-details[open] span:nth-child(2) {
-    display: none;
-}
+/*details[open] span:nth-child(2) {*/
+/*    display: none;*/
+/*}*/
 
-details[open] span:first-child {
-    top: calc(50% - 0.3rem);
-    transform: rotate(-45deg);
-    transform-origin: center;
-}
+/*details[open] span:first-child {*/
+/*    top: calc(50% - 0.3rem);*/
+/*    transform: rotate(-45deg);*/
+/*    transform-origin: center;*/
+/*}*/
 
-details[open] span:last-child {
-    top: calc(50% - 0.3rem);
-    transform: rotate(45deg);
-    transform-origin: center;
-}
+/*details[open] span:last-child {*/
+/*    top: calc(50% - 0.3rem);*/
+/*    transform: rotate(45deg);*/
+/*    transform-origin: center;*/
+/*}*/
 
 nav {
     position: absolute;
@@ -128,13 +121,13 @@ nav {
     /*z-index: 1;*/
 }
 
-details[open] +nav {
-    height: calc(200px - 5%);
-    z-index: 1;
-}
+/*details[open] +nav {*/
+/*    height: calc(200px - 5%);*/
+/*    z-index: 1;*/
+/*}*/
 
 nav ul {
-    list-style: none;
+    /*list-style: none;*/
     /*padding: 0 1rem;*/
     text-align: center;
     padding: 0;
@@ -303,7 +296,6 @@ li a {
     max-height: 100%;
     max-width: 100%;
     width: 100%;
-    z-index: 0;
 }
 
 .content {
@@ -323,7 +315,7 @@ li a {
 .b a {
     font-size: 15px;
     color: #29b078;
-    text-decoration: none;
+    /*text-decoration: none;*/
 }
 
 .list {
