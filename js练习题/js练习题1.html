@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习题1</title>
+</head>
+<script>
+
+    //1、求1-100之间所有数的总和与平均值
+    // var sum = 0;
+    // var sum1 = 0;
+    // for (var i = 1; i <= 100; i++) {
+    //     sum +=i;
+    //     sum1 = sum / 100;
+    // }
+    // console.log(sum); //5050
+    // console.log(sum1); //50.5
+
+    //2、求1-100之间所有偶数的和
+    // var sum = 0;
+    // for (var i = 1; i <=100; i++) {
+    //     if (i %2 == 0){
+    //         sum += i;
+    //     }
+    // }
+    // console.log(sum); //2550
+
+    //3、求100以内7的倍数的总和
+    // var sum = 0;
+    // for (var i = 1; i <= 100; i++) {
+    //     if (i % 7 == 0) {
+    //         sum += i;
+    //     }
+    // }
+    // console.log(sum); //735
+
+    //4、使用 for循环打印矩形，要求每次只能输出一个☆
+    // var str = '';
+    // for (var i = 1; 1 <= 5; i++) {
+    //     for ( var j = 1; j <= i; j++) {
+    //         str += '☆';
+    //     }
+    //     str += '\n';
+    // }
+    // console.log(str);
+
+    //5、使用for循环打印三角形
+    // var str = '';
+    // for (var i = 1; i <= 5; i++) {
+    //     for ( var j = (5 - i); j < 5; j++) {
+    //         str = str +'☆';
+    //     }
+    //     str = str + '\n';
+    // }
+    // console.log(str);
+
+    //6、使用for循环打印99乘法表
+    // var str = '';
+    // for ( var i = 1; i <= 9; i++) {
+    //     for (var j = 1; j <=i; j++) {
+    //         str += j + '×' + i + '=' + j*i + '\t';
+    //     }
+    //     str += '\n';
+    // }
+    // console.log(str)
+
+
+    //7、接收用户登录账号密码，若用户名字'adc' 密码是'12345'，则提示登录成功，否则让用户一直输入
+    // while ( a = prompt('请输入用户名')) {
+    //     if (a == 'abc') {
+    //         var b = prompt('请输入密码');
+    //         if ( b == '12345') {
+    //             alert('登录成功');
+    //         }
+    //     }
+    // }
+
+    //8、求整数1-100的累加值，但要求跳过所有个数为3的数 【要求使用continue实现】
+    // var sum = 0;
+    // for (var i = 1; i <= 100; i++) {
+    //     if (i %10 == 3) {
+    //         continue;
+    //     }
+    //     sum += i;
+    // }
+    // console.log(sum); //4570
+
+    //简单的ATM
+    var sum = 200;
+    var i = prompt('请输入您要的操作' + '\n' + '1.存钱' + '\n'   + '2.取钱' + '\n'  + '3.显示余额' + '\n'  + '4.退出')
+    if (i == 1) {
+        var a = prompt('请输入要存入的余额');
+        sum += parseFloat(a);
+        alert('您的余额是' + sum + '元');
+    }if (i == 2) {
+        var a1 = prompt('请输入要取出的余额');
+        sum -= parseFloat(a1);
+        alert('您的余额是' + sum + '元');
+    }if ( i == 3) {
+        alert('您的余额是' + sum + '元');
+    }if ( i == 4) {
+        alert('正在退出中...');
+    }
+
+
+
+</script>
+<body>
+
+</body>
+</html>

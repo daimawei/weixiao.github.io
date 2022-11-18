@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js练习数组1</title>
+</head>
+<script>
+
+    //1、数组(Array)：就是一组数据的集合 存储在单个变量下
+    //2、利用 new 创建数组
+    // var arr = new Array();  //创建一空的数组
+    // //3、利用数组字面量创建数组[]
+    // var arr = []; //创建一空的数组 ,在数组力可以存放人任意数据类型，里面的数据用逗号隔开
+    // var arr1 = [1,2,'李白',true];
+    // console.log(arr1);
+    // //获取数组元素 格式 数组名[索引号]
+    // console.log(arr1[2]);
+
+    // var arr = ['星期一','星期二','星期三','星期四','星期五','星期六','星期日','黑色星期天'];
+    // console.log(arr);
+    // console.log(arr[6]);
+    // console.log('-----------------');
+    //
+    // // 遍历数组：就是把数组中的每个元素从头到尾都访问一次
+    // //注意：因为索引号是从0开始，所以i必须是从0开始计算
+    // for (var i = 0; i < 7; i++) {
+    //     console.log(arr[i]);
+    // }
+    // //数组的长度  数组名.length
+    // //数组长度 arr.length 会动态检测数组元素个数
+    // console.log(arr.length);
+    // for (var i = 0; i < arr.length; i++) {
+    //     console.log(arr[i]);
+    // }
+
+    //小练习 求数组[2,6,7,1,4]总和与平均值
+    // var arr = [2,6,1,7,4];
+    // var sum = 0;
+    // var average = 0;
+    // for (var i = 0; i < arr.length; i++) {
+    //     sum += arr[i]; //加的是数组元素中的arr[i]
+    // }
+    // average = sum / arr.length;
+    // console.log(sum,average); // 20,4
+
+    //小练习 求数组[2,6,1,77,52,25,7]中的最大值
+    // var arr = [2,6,34,77,52,45,7];
+    // var max = arr[0];
+    // for (var i = 1; i < arr.length; i++) {
+    //     if ( arr[i] > max) {
+    //         max = arr[i];
+    //     }
+    // }
+    // console.log('该数组里的最大值是' + max);
+
+    // 求数组[2,6,1,77,52,25,7]中的最大值
+    // var arr1 = [2,6,33,77,52,45,7];
+    // var min = arr1[0];
+    // for (var i = 1; i < arr1.length; i++) {
+    //     if ( arr1[i] = min) {
+    //         min = arr1[i];
+    //     }
+    // }
+    // console.log('该数组里的最大值是' + min);
+
+    // var arr = ['red','green','blue','pink'];
+    // var str = '';
+    // var sep = '|';
+    // for (var i = 0; i < arr.length; i++) {
+    //     str += arr[i] + sep;
+    // }
+    // console.log(str);
+
+    //新增元素。修改length长度
+    // var arr =['red','green','bler'];
+    // console.log(arr.length);
+    // arr.length = 5;
+    // console.log(arr);
+    // console.log(arr[3]); //undefined
+    // console.log(arr[4]); //undefined
+
+    //新增元素，修改索引号
+    // var arr1 =['red','green','bler'];
+    // arr1[3] = 'pink';
+    // console.log(arr1);
+    // arr1[0] = 'yellow'; //这里是替换了原来的数组元素
+    // console.log(arr1[0]);
+    // arr1 = '尝试';
+    // console.log(arr1); //不要给数组名赋值，否则会覆盖掉以前的数据
+
+    // var arr = [];
+    // for (var i = 0; i < 10; i++) {
+    //     arr[i] = i+1;
+    // }
+    // console.log(arr);
+
+    //将数组中大于10的数字取出来
+    // var arr = [2,0,5,45,78,44,2,5,55,22,33];
+    // var newArr = [];
+    // var j = 0;  //使用一个j变量来存放数组
+    // for (var i = 0; i < arr.length; i++) {
+    //     if (arr[i] > 10) {
+    //         newArr[newArr.length] = arr[i];
+    //         j++
+    //     }
+    // }
+    // console.log(newArr);
+
+    //使用newArr.length来存放数组
+    // var arr = [2,0,5,45,78,44,2,5,55,22,33];
+    // var newArr = [];
+    // for (var i = 0; i < arr.length; i++) {
+    //     if (arr[i] > 10) {
+    //         newArr[newArr.length] = arr[i];
+    //     }
+    // }
+    // console.log(newArr);
+    //
+    // var arr = [2,0,5,45,78,44,2,5,55,22,33];
+    // var newArr = [];
+    // for (var i = 0; i <arr.length; i++) {
+    //
+    // }
+
+
+</script>
+<body>
+
+</body>
+</html>

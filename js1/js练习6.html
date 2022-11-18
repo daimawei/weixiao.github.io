@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>js练习</title>
+    <!--    内嵌式的js-->
+    <script>
+
+         // var num = 10;
+         // var a = 0;
+         // for ( var i = 1; 1<=100; i++) {
+         //     num = num + i;
+         // }
+         // console.log(num);
+         // a = num / 100;
+         // console.log(a);
+
+         // var num = prompt('请输入学生人数');
+         // var sum = 0;
+         // var average = 0;
+         // for ( var i = 1; i <= num; i++) {
+         //     var a = prompt('请输入第' + i + '个学生成绩');
+         //     //因为从来prompt转化过来的数据是字符串型，需要转化成字符型所以需要parseFloat转化
+         //     sum = sum + parseFloat(a);
+         // }
+         // average = sum / num;
+         // alert('班级总成绩是：' + sum);
+         // alert('班级平均成绩是：' + average);
+
+         // var str = '';
+         // for (var i = 1; i <=5; i++) {
+         //     str = str + '★';
+         // }
+         // console.log(str);
+
+         // var num = prompt('请输入你的行数：');
+         // var num1 = prompt('请输入多少列数：');
+         // var str = '';
+         // for (var i = 1 ; i <= num; i++) {
+         //     for (var j = 1; j <= num1; j++) {
+         //         str = str + '★';
+         //     }
+         //     str = str +'\n';
+         // }
+         // console.log(str);
+
+         //倒三角星
+         // var str = '';
+         // for (var i =1; i <= 10; i++) { //外层循环控制的是行数
+         //     for ( var j = i; j <= 10; j++) {  //里层循环控制的是列数
+         //         str = str +'★';
+         //     }
+         //     str = str + '\n';
+         // }
+         // console.log(str);
+
+         //正三角星
+         // var str = '';
+         // for (var i = 1; i <= 10; i++) {  //外层循环控制的是行数
+         //     for ( var j = (10 - i); j < 10; j++) {   //里层循环控制的是列数
+         //         str = str +'★';
+         //     }
+         //     str = str + '\n';
+         // }
+         // console.log(str);
+
+         // var str = '';
+         // for (var i = 1; i <= 9; i++) { //外层循环控制的是行数
+         //     for ( var j = 1; j <= i; j++) {  //里层循环控制的是列数
+         //         // 1 × 2 = 2
+         //         str += j + '×' + i + '=' + i*j +'\t';
+         //     }
+         //     str +='\n';
+         // }
+         // console.log(str);
+
+
+         //while循环
+         // var i = 1;
+         // while (i <=100){
+         //     console.log('你今年' + i + '岁了');
+         //     i++;
+         // }
+         //
+         // var sum = 0;
+         // var o = 1;
+         // while (o <= 100){
+         //     sum += o;
+         //     o++
+         // }
+         // console.log(sum)
+         //
+         // var a = prompt('你好吗？');
+         // while (a !== '我很好') {
+         //     a = prompt('你好吗？');
+         // }
+         // alert('我也不错');
+
+
+
+         // do while 循环
+         // var i = 1;
+         // do {
+         //     console.log('你今年' + i + '岁了');
+         //     i++;
+         // }while (i <=100);
+         //
+         //
+         // var j = 1;
+         // var sum = 0;
+         // do {
+         //    sum +=j;
+         //    j++;
+         // }while (j <=100)
+         // console.log(sum);
+         //
+         //
+         // do {
+         //     var a = prompt('你好吗？');
+         // }while (a !== '我很好')
+         // alert('我也很好');
+
+         //  continue 关键字
+         // for (var i = 1; i <= 5; i++) {
+         //     if ( i == 3 ) {
+         //         continue; //跳过本次循环
+         //     }
+         //     console.log('我吃了' + i + '个包子');
+         // }
+
+         // var sum = 0;
+         // for (var o = 1; o <= 100; i++){
+         //     if (o % 7 == 0) {
+         //         continue;
+         //     }
+         //     sum += o;
+         // }
+         // console.log(sum);
+
+
+         //break 关键字
+         for (var i = 1; i <= 5; i++) {
+             if ( i == 3 ) {
+                 break; //退出整个循环
+             }
+             console.log('我吃了' + i + '个包子');
+         }
+
+
+    </script>
+
+</head>
+<body>
+<!--              行内式的js 直接写到元素的内部          -->
+<!--                        onclick是点击的意思        alert是弹出框的意思                                -->
+<!--    <input type="button" value="唐伯虎" onclick="alert('秋香')">-->
+</body>
+</html>

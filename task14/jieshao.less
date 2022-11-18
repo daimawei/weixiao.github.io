@@ -7,39 +7,82 @@
   padding: 0;
 }
 
+
 .box {
   width: 100%;
   margin: 0 auto;
   background-color: #fafafa;
 }
 
+
+@media all and (min-width: 640px) {
+  #head2 {
+    display: none;
+  }
+
+  #guide {
+    display: none;
+  }
+
+  .noneUl {
+    display: none;
+  }
+
+  .noneUl {
+    list-style: none;
+    margin: 10px;
+    background-color: #fff;
+  }
+}
+
+#guide{
+  position: fixed;
+  line-height: 50px;
+  display: none;
+  border-radius: 20pt;
+  margin-top: 50px;
+  width: 120px;
+  height: 50%;
+  min-height: 250px;
+}
+
+.noneUl{
+  list-style: none;
+  margin: 10px;
+  background-color: #fff;
+}
+
+
+
 li {
   padding: 10px;
   list-style: none;
 }
 
-.icon {
-  float: right;
-  width: 50px;
-  padding: 0 10px;
-  margin-top: -20px;
-}
-
 .head {
-  height: 39px;
-  width: auto;
-  background-color: white;
+  height: 40px;
+  background-color: @color;
+  display: flex;
 }
 
-.head p {
+.telephone {
+  position: absolute;
+  top: 10px;
+  left: 20px;
   font-size: 14px;
   color: @bgcolor;
-  margin: 10px 0 0 200px;
+  margin-bottom: 0;
 }
 
 .chart {
-  width: auto;
-  margin-right: 15%;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.chart>img {
+  white: 50%;
+  //transform: translateX(-50%);
 }
 
 .cooperation {
@@ -82,34 +125,6 @@ span {
   transition: 0.3s;
 }
 
-span:first-child {
-  top: 0;
-}
-
-span:nth-child(2) {
-  top: calc(50% - 0.3rem);
-}
-
-span:last-child {
-  bottom: 0;
-}
-
-details[open] span:nth-child(2) {
-  display: none;
-}
-
-details[open] span:first-child {
-  top: calc(50% - 0.3rem);
-  transform: rotate(-45deg);
-  transform-origin: center;
-}
-
-details[open] span:last-child {
-  top: calc(50% - 0.3rem);
-  transform: rotate(45deg);
-  transform-origin: center;
-}
-
 nav {
   position: absolute;
   left: 0;
@@ -118,11 +133,6 @@ nav {
   height: 0;
   background-color: @bgcolor;
   overflow: hidden;
-}
-
-details[open] +nav {
-  height: calc(200px - 5%);
-  z-index: 1;
 }
 
 nav ul {
@@ -160,6 +170,7 @@ li a {
   max-width: 100%;
   width: 100%;
   z-index: 0;
+  flex-grow: 1;
 }
 
 .content {

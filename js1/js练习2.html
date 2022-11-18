@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>js练习</title>
+  <!--    内嵌式的js-->
+  <script>
+
+    var temp;
+    var apple1 = '青苹果';
+    var apple2 = '红苹果';
+    temp = apple1;
+    apple1 = apple2;
+    apple2 = temp;
+    console.log(apple1);
+    console.log(apple2);
+    //数字型最大值
+    console.log(Number.MAX_VALUE);
+    //数字型最小值
+    console.log(Number.MIN_VALUE);
+
+    console.log(isNaN(13));//返回false
+    console.log(isNaN('李白'));//返回true
+
+    var str = '我是一个前端\n程序员';       //\n代表换行的意思，\是转义字符
+    console.log(str);
+    console.log(str.length);
+    console.log('李白' + '杜甫');//+起拼接的作用   最后结果是李白杜甫
+    var age = 18;
+    console.log('李白'+age+'岁');
+
+    var age1 = prompt('请输入你的年龄');
+    var str1 = '你今年' + age1 + '岁';
+    alert(str1);
+
+  </script>
+  <!--    外部js代码 双标签-->
+  <!--    <script src="my.js"></script>-->
+</head>
+<body>
+
+</body>
+</html>
