@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>js练习8</title>
+</head>
+<script>
+
+    //交换
+    // var temp = [];
+    // var arr = ['a'];
+    // var arr1 = ['b'];
+    // temp = arr;
+    // arr = arr1;
+    // arr1 = temp;
+    // console.log(arr,arr1); //['b'] ['a']
+
+
+    //冒泡排序
+    // var arr = [5,4,3,2,1];
+    var arr = [12,3,8,34,6];
+    var arrArr = [];
+    for (var i = 0; i <= arr.length - 1; i++) { //外层循环次数
+        for (var j = 0; j <= arr.length - i - 1; j++) { //里层循环次数
+            //内部交换的两个值，是前一个和后一个数组元素相比较的
+            if (arr[j] > arr[j + 1]) {
+                var temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+    console.log(arr); // var arr = [1,2,3,4,5];
+</script>
+<body>
+
+</body>
+</html>
